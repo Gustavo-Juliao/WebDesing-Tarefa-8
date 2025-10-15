@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 7</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+
+</head>
+
+<body>
+    <header id="topo">
+        <h1>Top Games</h1>
+        
+    </header>
+
+    <main>
+        <button id="btn-troca-modo" class="botoes">Dark</button>
+
+        <div class="info">
+            <h2>Sobre o Game Awards</h2>
+            <p>O Game Awards é um evento anual que celebra a indústria de jogos eletrônicos, 
+                reconhecendo e premiando os melhores jogos, desenvolvedores e contribuições 
+                para o mundo dos games. Fundado em 2014 por Geoff Keighley, o evento se tornou 
+                uma das maiores cerimônias de premiação do setor, atraindo a atenção de jogadores, 
+                esenvolvedores e mídia de todo o mundo. O Game Awards apresenta uma variedade de categorias, 
+                incluindo Jogo do Ano, Melhor Direção, Melhor Narrativa, Melhor Design de Som, entre outras.
+                Além das premiações, o evento também é conhecido por suas revelações exclusivas de novos jogos e trailers emocionantes. 
+                Com uma produção de alta qualidade e a participação de celebridades da indústria, o Game Awards é um momento importante para celebrar a 
+                criatividade e inovação no mundo dos jogos eletrônicos.
+                Hoje nós vamos falar sobre os principais candidatos ao prêmio de Jogo do Ano, uma categoria que destaca os jogos mais impactantes
+                e memoráveis lançados ao longo do ano.
+            </p>
+        </div>
+
+<div class="container">
+        <h1>Contagem Regressiva para o <strong>The Game Awards</strong></h1>
+        <p>Faltam apenas:</p>
+ 
+        <div id="timer">
+            <div class="time-box">
+                <span id="dias">00</span>
+                <span class="data">Dias</span>
+            </div>
+            <div class="time-box">
+                <span id="horas">00</span>
+                <span class="data">Horas</span>
+            </div>
+            <div class="time-box">
+                <span id="minutos">00</span>
+                <span class="data">Minutos</span>
+            </div>
+            <div class="time-box">
+                <span id="segundos">00</span>
+                <span class="data">Segundos</span>
+            </div>
+        </div>
+        
+        <div id="mensagem-final" class="hidden">
+            <h2>O <strong>The Game Awards</strong> começou!!</h2>
+        </div>
+    </div>
+
+        <h2>Possíveis candidatos ao Game of the Year</h2>
+        <div class="candidatos">
+            <div class="card">
+                <img id="silksongImg" src="./assets/images/Silksong.jpg" alt="Silksong">
+            </div>
+            <div class="card">
+                <img id="expeditionImg"src="./assets/images/Expedition.jpg" alt="Expedition 33">
+            </div>
+            <div class="card">
+                <img id="digimonImg" src="./assets/images/Time_stranger.png" alt="Digimon Time Stranger">
+            </div>
+            <div class="card">
+                <img id="kingdomImg" src="./assets/images/kingdom.png" alt="kingdom come deliverance 2">
+            </div>
+            <div class="card">
+                <img id="hadesImg" src="./assets/images/hades 2.avif" alt="hades 2">
+            </div>
+            <div class="card">
+                <img id="donkeyImg" src="./assets/images/Donkey.png" alt="Donkey Kong Bananza">
+            </div>
+        </div>
+
+        <div  id="silksong" class="info">
+            <h2>Hollow Knight: SilkSong</h2>
+            <img src="./assets/images/Silksong.jpg" alt="Silksong">
+            <p>
+                SilkSong é um jogo de ação e aventura desenvolvido pela Team Cherry.
+                É a sequência do aclamado jogo Hollow Knight. O jogo se passa em um mundo subterrâneo repleto de criaturas misteriosas e desafios emocionantes.
+                Os jogadores assumem o papel de Hornet, uma personagem ágil e habilidosa, enquanto exploram novos ambientes, enfrentam inimigos desafiadores
+                e descobrem segredos ocultos. Com uma jogabilidade fluida, gráficos encantadores e uma trilha sonora envolvente, SilkSong promete oferecer uma experiência
+                imersiva para os fãs de jogos de plataforma e aventura.
+            </p>
+            <iframe class="video"
+            src="https://www.youtube.com/embed/6XGeJwsUP9c"
+            title="SilkSong - Official Teaser Trailer"
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+            </iframe>
+        </div>
+        
+        <div id="expedition" class="info"> 
+            <h2>Clair Obscur: Expedition 33</h2>
+            <img src="./assets/images/Expedition.jpg" alt="Expedition 33">
+            <p>
+                Expedition 33 é um jogo de RPG por turnos desenvolvido pela Sandfall Interactive e publicado pela Kepler Interactive.
+                Ambientado em um mundo de fantasia deslumbrante, o jogo acompanha um grupo de heróis em uma jornada para desafiar a Paintress, 
+                uma entidade misteriosa que reescreve o mundo a cada geração. Com visuais inspirados em pinturas e uma trilha sonora envolvente, Expedition 33 combina 
+                narrativa emocional, exploração e batalhas estratégicas em um sistema de combate tático e dinâmico. A experiência oferece uma mistura única de arte, emoção 
+                e estratégia, convidando os jogadores a refletirem sobre o ciclo da vida, da perda e da esperança.
+            </p>
+            <iframe class="video"
+            src="https://www.youtube.com/embed/2VaLOc1FpSo"
+            title="Expedition 33 - Official Trailer"
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+            </iframe>
+        </div>
+
+        <div id="digimon" class="info">
+            <h2>Digimon Time Stranger</h2>
+            <img src="./assets/images/Time_stranger.png" alt="Digimon Time Stranger">
+            <p>
+                Digimon Time Stranger é um jogo de RPG de turno desenvolvido pela Bandai Namco Entertainment. 
+                O jogo se passa em um universo onde os jogadores podem viajar no tempo e interagir com diferentes eras da história dos Digimons. 
+                Os jogadores assumem o papel de um treinador de Digimons e embarcam em uma jornada para salvar o mundo digital de uma ameaça iminente. 
+                Com batalhas estratégicas, evolução de Digimons e uma narrativa envolvente, Digimon Time Stranger oferece uma experiência emocionante para os fãs da franquia 
+                Digimon e dos jogos de RPG.
+            </p>
+            <iframe class="video"
+            src="https://www.youtube.com/embed/6WpQEyhEIUk"
+            title="Digimon Time Stranger - Official Trailer"
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+            </iframe>
+        </div>
+
+        <div id="kingdom" class="info">
+            <h2>Kingdom come deliverance 2</h2>
+            <img src="./assets/images/kingdom.png" alt="kingdom come deliverance 2">
+            <p>
+                Kingdom Come: Deliverance 2 é a sequência do aclamado RPG de ação medieval Kingdom Come: Deliverance, desenvolvido pela Warhorse Studios. 
+                O jogo continua a história de Henry, um jovem ferreiro que se vê envolvido em uma trama complexa de intrigas 
+                políticas, batalhas épicas e dilemas morais no Sacro Império Romano-Germânico. 
+                Com um mundo aberto detalhado e realista, o jogo oferece uma experiência imersiva,
+                 onde os jogadores podem explorar aldeias, castelos e florestas, interagir com personagens históricos e participar de combates desafiadores. 
+                Kingdom Come: Deliverance 2 promete expandir ainda mais o universo do jogo original, trazendo novas missões, habilidades e uma narrativa 
+                envolvente que desafia as escolhas dos jogadores.
+            </p>
+            <iframe class="video"
+            src="https://www.youtube.com/embed/7ynJN-HejlY"
+            title="Kingdom Come: Deliverance 2 - Official Trailer"
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+            </iframe>
+        </div>
+
+        <div id="hades" class="info">
+            <h2>Hades 2</h2>
+            <img src="./assets/images/hades 2.avif" alt="hades 2">
+            <p>
+                Hades 2 é a sequência do aclamado jogo de ação roguelike Hades, desenvolvido pela Supergiant Games. 
+                O jogo continua a história de Zagreus, o príncipe do submundo, enquanto ele tenta escapar do reino dos mortos e descobrir mais sobre sua origem divina. 
+                Com uma jogabilidade rápida e fluida, Hades 2 apresenta novos inimigos, armas e habilidades, além de expandir o universo mitológico grego com novos personagens e histórias. 
+                O jogo mantém o estilo artístico vibrante e a trilha sonora envolvente que conquistaram os jogadores no primeiro título, prometendo uma experiência emocionante e desafiadora 
+                para os fãs de jogos de ação e roguelike.
+            </p>
+            <iframe class="video"
+            src="https://www.youtube.com/embed/txQKYcbIAHU"
+            title="Hades 2 - Official Trailer"
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+            </iframe>
+        </div>
+
+        <div id="donkey" class="info">
+            <h2>Donkey Kong Bananza</h2>
+            <img src="./assets/images/Donkey.png" alt="Donkey Kong Bananza">
+            <p>
+                Donkey Kong Bananza é um jogo de plataforma desenvolvido pela Nintendo, estrelando o icônico personagem Donkey Kong. 
+                O jogo leva os jogadores a uma aventura emocionante através de diversos níveis repletos de desafios, inimigos e segredos para descobrir. 
+                Com gráficos coloridos e uma jogabilidade divertida, Donkey Kong Bananza oferece uma experiência nostálgica para os fãs da série, 
+                ao mesmo tempo em que introduz novos elementos e mecânicas para manter a jogabilidade fresca e envolvente. 
+                Os jogadores podem explorar ambientes variados, coletar itens e enfrentar chefes desafiadores enquanto ajudam Donkey Kong e Pauline em sua missão.
+            </p>
+            <iframe class="video"
+            src="https://www.youtube.com/embed/tdsRPs6rX4w"
+            title="Donkey Kong Bananza - Official Trailer"
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+            </iframe>
+        </div>
+
+        <h2>Notas da Crítica e Nossa opinião</h2>
+
+        <section class="game-area" style="background-image: url('./assets/images/Silksong.jpg');">
+            <div class="game-overlay">
+                <h2>Hollow Knight: Silksong</h2>
+                <p><strong>Metacritic:</strong> 92/100</p>
+                <p><strong>OpenCritic:</strong> 94/100</p>
+                <p>
+                    <strong>Comentário:</strong>
+                    <span class="editable"> Hollow Knight: Silksong é um dos maiores acertos da indústria, 
+                    um jogo que transmite claramente a paixão de seus desenvolvedores.
+                    Essa dedicação é evidente no fato de o jogo ter sido adiado várias 
+                    vezes para aprimorar e polir cada detalhe. Sua primeira demo foi apresentada na E3 de 2019,
+                    e o lançamento oficial ocorreu apenas em setembro de 2025. O mapa é de 2 a 4 vezes maior que o de seu antecessor, 
+                    e cada área é viva, com estética própria e única. Além da direção de arte impecável, a jogabilidade é fenomenal, e a trilha sonora é 
+                    memorável.
+                    Um jogo indie de uma equipe pequena pode ganhar o maior prêmio do mundo dos VideoGames em cima de empresas gigantes.
+                </span>
+            </p>
+            </div>
+        </section>
+
+        <section class="game-area" style="background-image: url('./assets/images/Expedition.jpg');">
+            <div class="game-overlay">
+                <h2>Expedition 33</h2>
+                <p><strong>Metacritic:</strong> 91/100</p>
+                <p><strong>OpenCritic:</strong> 92/100</p>
+                <p>
+                    <strong>Comentário:</strong>
+                     <span class="editable"> Expedition 33 é uma experiência envolvente que desafia o jogador a explorar,
+                    sobreviver e tomar decisões estratégicas em um ambiente hostil e imprevisível.
+                    A narrativa é rica e as mecânicas exigem atenção e planejamento, mantendo o jogador sempre engajado. 
+                    Os cenários são detalhados e variados, cada área com sua própria atmosfera, enquanto a trilha sonora e os 
+                    efeitos sonoros aumentam a imersão. É um jogo que combina aventura, estratégia e exploração de forma impressionante.
+                </span>
+            </p>
+            </div>
+        </section>
+
+        <section class="game-area" style="background-image: url('./assets/images/Time_stranger.png');">
+            <div class="game-overlay">
+                <h2>Digimon Time Stranger</h2>
+                <p><strong>Metacritic:</strong> 78/100</p>
+                <p><strong>OpenCritic:</strong> 79/100</p>
+                <p>
+                    <strong>Comentário:</strong>
+                     <span class="editable"> Digimon Time Stranger combina nostalgia e inovação,
+                    oferecendo uma aventura envolvente para fãs antigos e novos.
+                    A narrativa é cativante, com personagens bem desenvolvidos e mecânicas estratégicas que mantêm o jogador constantemente engajado. 
+                    O design dos Digimons e das batalhas é vibrante e detalhado, tornando cada encontro memorável.
+                </span>
+            </p>
+            </div>
+        </section>
+
+        <section class="game-area" style="background-image: url('./assets/images/kingdom.png');">
+            <div class="game-overlay">
+                <h2>Kingdom Come: Deliverance 2</h2>
+                <p><strong>Metacritic:</strong> 82/100</p>
+                <p><strong>OpenCritic:</strong> 83/100</p>
+                <p>
+                    <strong>Comentário:</strong>
+                     <span class="editable"> Kingdom Come: Deliverance 2 eleva a experiência de RPG histórico a outro nível,
+                    com fidelidade impressionante à época medieval.
+                    Cada detalhe do mundo, desde as construções até a economia,
+                    foi cuidadosamente elaborado. As missões exigem pensamento estratégico e atenção aos detalhes,
+                    enquanto o combate mantém um realismo desafiador. A narrativa continua rica e envolvente, tornando a imersão quase completa.
+                </span>
+            </p>
+            </div>
+        </section>
+
+        <section class="game-area" style="background-image: url('./assets/images/hades 2.avif');">
+            <div class="game-overlay">
+                <h2>Hades 2</h2>
+                <p><strong>Metacritic:</strong> 95/100</p>
+                <p><strong>OpenCritic:</strong> 96/100</p>
+                <p>
+                    <strong>Comentário:</strong>
+                     <span class="editable"> Hades 2 aprimora tudo que tornou o primeiro jogo um sucesso, 
+                    com jogabilidade mais refinada, narrativa mais profunda e novos desafios emocionantes. Cada combate é rápido, 
+                    intenso e recompensador, mantendo o jogador constantemente engajado. A direção de arte é deslumbrante, e a trilha 
+                    sonora complementa perfeitamente a ação. Um roguelike que redefine o gênero.
+                </span>
+            </p>
+            </div>
+        </section>
+
+        <section class="game-area" style="background-image: url('./assets/images/Donkey.png');">
+            <div class="game-overlay">
+                <h2>Donkey Kong Bananaza</h2>
+                <p><strong>Metacritic:</strong> 90/100</p>
+
+                <p><strong>OpenCritic:</strong> 91/100</p>
+
+                <p>
+                    <strong>Comentário:</strong>
+                     <span class="editable"> Donkey Kong Bananaza traz diversão e nostalgia em cada nível,
+                    com fases criativas, puzzles engenhosos e desafios que equilibram perfeitamente dificuldade e entretenimento.
+                    O visual colorido e detalhado, junto da trilha sonora animada, cria uma experiência alegre e envolvente.
+                    É um jogo que agrada tanto aos fãs clássicos quanto aos novos jogadores.
+                </span>
+            </p>
+            </div>
+        </section>
+
+        <h2>Análise Técnica dos Jogos</h2>
+
+        <div class="info">
+            <h2>Performance e Gráficos</h2>
+            <p>
+                A qualidade técnica dos jogos candidatos a GOTY 2025 alcançou novos patamares. 
+                Hollow Knight: Silksong impressiona com sua arte 2D feita à mão, rodando a 60fps 
+                de forma estável em todas as plataformas. O jogo utiliza técnicas avançadas de 
+                parallax e iluminação dinâmica que criam uma atmosfera única e envolvente.
+            </p>
+            <p>
+                Expedition 33 se destaca pelo uso inovador do Unreal Engine 5, implementando 
+                Lumen e Nanite para criar ambientes foto-realísticos com iluminação global em 
+                tempo real. O jogo mantém 4K nativo a 60fps no PC e utiliza upscaling inteligente 
+                nos consoles para manter a fluidez sem sacrificar a qualidade visual.
+            </p>
+            <p>
+                Hades 2 eleva a direção de arte isométrica a outro nível, com modelos 3D renderizados 
+                em estilo pintado que parecem aquarelas em movimento. O sistema de partículas foi 
+                completamente reformulado, permitindo efeitos visuais mais impressionantes durante 
+                as batalhas sem impactar a performance.
+            </p>
+        </div>
+
+        <div class="info">
+            <h2>Inovações em Gameplay</h2>
+            <p>
+                Cada candidato trouxe inovações significativas para suas respectivas mecânicas. 
+                Silksong introduz um sistema de combate mais fluido que seu antecessor, com 
+                novas habilidades de mobilidade que transformam completamente a exploração. 
+                O sistema de ferramentas e teias adiciona camadas estratégicas tanto para 
+                combate quanto para puzzles ambientais.
+            </p>
+            <p>
+                Digimon Time Stranger revoluciona o sistema de batalha por turnos tradicional 
+                da franquia, incorporando elementos de tempo real que exigem reflexos rápidos 
+                durante os turnos. O sistema de viagem no tempo afeta diretamente a narrativa 
+                e permite que escolhas em diferentes épocas alterem o presente de formas 
+                significativas e imprevisíveis.
+            </p>
+            <p>
+                Kingdom Come: Deliverance 2 aprimora o realismo histórico com um sistema de 
+                combate que simula técnicas medievais autênticas de esgrima. O jogo também 
+                introduz um sistema dinâmico de diplomacia onde suas ações e reputação em 
+                diferentes regiões afetam drasticamente as missões disponíveis e os desfechos 
+                possíveis da história.
+            </p>
+            <p>
+                Donkey Kong Bananaza inova no gênero de plataforma 3D ao introduzir mecânicas 
+                de ritmo integradas aos movimentos. Os jogadores devem sincronizar seus pulos 
+                e ataques com a trilha sonora dinâmica para desbloquear o potencial máximo 
+                de cada fase, criando uma experiência única que une plataforma e música.
+            </p>
+        </div>
+
+        <h2>Impacto Cultural e Comunitário</h2>
+
+        <div class="info">
+            <h2>Recepção da Comunidade</h2>
+            <p>
+                A comunidade de jogadores tem respondido de forma extraordinária aos candidatos 
+                deste ano. Hollow Knight: Silksong quebrou recordes de wishlist na Steam antes 
+                mesmo do lançamento, com mais de 5 milhões de jogadores aguardando ansiosamente. 
+                Após o lançamento, a comunidade criou mais de 50.000 obras de fan art nas primeiras 
+                duas semanas, demonstrando o impacto cultural profundo do jogo.
+            </p>
+            <p>
+                Hades 2 manteve a tradição do primeiro jogo em criar uma comunidade engajada e 
+                criativa. Os speedrunners já estabeleceram categorias complexas e a cena 
+                competitiva cresceu exponencialmente. O jogo também inspirou discussões 
+                profundas sobre mitologia grega, com acadêmicos elogiando a representação 
+                respeitosa e educativa dos mitos clássicos.
+            </p>
+            <p>
+                Expedition 33 gerou debates significativos sobre narrativa em jogos, com sua 
+                abordagem madura e filosófica sobre temas como mortalidade e legado. Comunidades 
+                online dedicam-se a decifrar os simbolismos e metáforas presentes no jogo, 
+                criando teorias elaboradas sobre o significado mais profundo da jornada dos 
+                personagens.
+            </p>
+        </div>
+
+        <div class="info">
+            <h2>Diversidade e Representação</h2>
+            <p>
+                Os candidatos de 2025 representam um marco importante em diversidade na indústria. 
+                Silksong apresenta Hornet como protagonista feminina forte e complexa, sem 
+                estereótipos ou romantização desnecessária. O jogo celebra a força feminina de 
+                forma natural e inspiradora, tornando-se referência para futuras produções.
+            </p>
+            <p>
+                Expedition 33 destaca-se pela representatividade em seu elenco principal, 
+                apresentando personagens de diferentes etnias, orientações e backgrounds culturais. 
+                Cada personagem é desenvolvido com profundidade, evitando tokenismo e criando 
+                representações autênticas que ressoam com jogadores de diversos contextos.
+            </p>
+            <p>
+                Kingdom Come: Deliverance 2, apesar de sua ambientação histórica europeia, 
+                traz personagens femininos com papéis significativos e agência própria, 
+                desafiando estereótipos medievais enquanto mantém respeito pela precisão 
+                histórica. O jogo também explora temas de classe social e desigualdade de 
+                forma nuançada e educativa.
+            </p>
+        </div>
+
+        <h2>Vencedores dos Anos Anteriores</h2>
+
+        <div class="info">
+            <h2>Histórico do Game Awards</h2>
+            <p>
+                Para contextualizar os candidatos de 2025, é importante revisar os vencedores 
+                recentes do prêmio GOTY. Em 2024, Baldur's Gate 3 conquistou o título máximo, 
+                estabelecendo novos padrões para RPGs com suas escolhas consequentes e liberdade 
+                narrativa sem precedentes. O jogo da Larian Studios demonstrou que o público 
+                valoriza profundidade, complexidade e respeito pela inteligência dos jogadores.
+            </p>
+            <p>
+                Em 2023, Elden Ring dominou a cerimônia, mostrando que jogos desafiadores e 
+                complexos ainda têm seu lugar no mainstream. A colaboração entre FromSoftware 
+                e George R.R. Martin resultou em um mundo aberto que redefine o gênero, 
+                provando que dificuldade e acessibilidade não são mutuamente exclusivas quando 
+                bem implementadas.
+            </p>
+            <p>
+                Olhando para 2022, It Takes Two surpreendeu ao vencer com sua proposta cooperativa 
+                obrigatória e design criativo. O jogo de Josef Fares demonstrou que inovação em 
+                gameplay e narrativa emocional podem coexistir, criando experiências memoráveis 
+                que transcendem os gêneros tradicionais.
+            </p>
+            <p>
+                The Last of Us Part II levou o prêmio em 2020, gerando discussões intensas sobre 
+                narrativa madura em videogames. Independente das controvérsias, o jogo empurrou 
+                os limites técnicos do PlayStation 4 e demonstrou a capacidade dos jogos de 
+                contar histórias complexas e desafiadoras que dividem opiniões e provocam reflexões.
+            </p>
+        </div>
+
+        <div class="info">
+            <h2>Comparação com Anos Anteriores</h2>
+            <p>
+                Os candidatos de 2025 compartilham características com vencedores anteriores, 
+                mas também trazem elementos únicos. Assim como Baldur's Gate 3, Expedition 33 
+                oferece profundidade narrativa e consequências significativas para as escolhas 
+                dos jogadores, mas adiciona uma camada de filosofia existencial que transcende 
+                a tradicional estrutura de RPG.
+            </p>
+            <p>
+                Silksong segue o legado de jogos indie como Hollow Knight (seu predecessor) e 
+                Hades, provando que equipes pequenas podem criar experiências que rivalizam ou 
+                superam produções AAA. A dedicação da Team Cherry ao polimento e à atenção aos 
+                detalhes ecoa a filosofia que tornou os vencedores anteriores memoráveis.
+            </p>
+            <p>
+                Hades 2 mantém a tradição de sequências que melhoram seus antecessores em todos 
+                os aspectos, similar ao que God of War Ragnarök fez em 2022. A Supergiant Games 
+                demonstra compreensão profunda do que funcionou no original enquanto adiciona 
+                camadas de complexidade que mantêm a experiência fresca e emocionante.
+            </p>
+        </div>
+
+        <h2>Conclusão e Previsões</h2>
+
+        <div class="info">
+            <h2>O Veredito Final</h2>
+            <p>
+                A disputa pelo Game of the Year 2025 é uma das mais acirradas da história do 
+                prêmio. Cada candidato trouxe contribuições significativas para a indústria e 
+                merece reconhecimento por suas conquistas únicas. Hollow Knight: Silksong 
+                representa a excelência indie e o poder da paixão criativa. Expedition 33 
+                empurra os limites da narrativa madura em jogos.
+            </p>
+            <p>
+                Hades 2 demonstra como sequências podem evoluir franquias mantendo sua essência. 
+                Kingdom Come: Deliverance 2 prova que realismo histórico e gameplay envolvente 
+                não são mutuamente exclusivos. Digimon Time Stranger revitaliza uma franquia 
+                clássica com inovações ousadas. Donkey Kong Bananaza mostra que jogos de 
+                plataforma ainda têm muito a oferecer quando tratados com criatividade e respeito.
+            </p>
+            <p>
+                Independentemente de qual jogo levará o prêmio máximo, 2025 será lembrado como 
+                um ano excepcional para a indústria de videogames. A diversidade de gêneros, 
+                estilos e abordagens entre os candidatos demonstra a maturidade e a riqueza 
+                artística que os jogos alcançaram como mídia. Cada título empurrou fronteiras 
+                em sua própria direção, contribuindo para o avanço coletivo da forma de arte.
+            </p>
+            <p>
+                Para os jogadores, o verdadeiro prêmio é ter acesso a tantas experiências 
+                excepcionais em um único ano. Cada jogo oferece algo único e valioso, e todos 
+                merecem ser experimentados e celebrados. O Game Awards de 2025 promete ser uma 
+                celebração memorável não apenas dos indicados, mas de toda a indústria e da 
+                comunidade apaixonada que a sustenta.
+            </p>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Top Games. Todos os direitos reservados.</p>
+        <button id="btnInicio" class="botoes">voltar ao topo</button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
